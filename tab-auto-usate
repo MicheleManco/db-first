@@ -1,12 +1,13 @@
 nome tabella --> autoUsateInVendita
 
-colonne --------------------- tipo di dato --------------------- attributi
+colonne --------------------  tipo di dato  --------------------  attributi
 
-id
-modello
-marca
-km
-anno
-prezzo di vendita 
-
+id  ------------------------  int          ---------------------  increment unique 
+modello  -------------------  varchar(20)  ---------------------  not null
+marca  ---------------------  varchar(15)  ---------------------  not null
+km  ------------------------  int          ---------------------  not null
+anno  ----------------------  date         ---------------------  not null
+prezzo di vendita  ---------  int          ---------------------  not null
+targa  ---------------------  varchar(15)  ---------------------  unique 
+colore  --------------------  varchar(15)  ---------------------  not null 
 
