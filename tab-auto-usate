@@ -2,11 +2,11 @@ nome tabella --> autoUsateInVendita
 
 colonne --------------------  tipo di dato  --------------------  attributi
 
-id  ------------------------  int          ---------------------  increment unique 
+id  ------------------------  int          ---------------------  auto_increment, unique 
 modello  -------------------  varchar(20)  ---------------------  not null
 marca  ---------------------  varchar(15)  ---------------------  not null
-km  ------------------------  int          ---------------------  not null
-anno  ----------------------  date         ---------------------  not null
+km  ------------------------  vaarchar(10) ---------------------  not null
+anno  ----------------------  year         ---------------------  not null
 prezzo di vendita  ---------  int          ---------------------  not null
 targa  ---------------------  varchar(15)  ---------------------  unique 
 colore  --------------------  varchar(15)  ---------------------  not null 
